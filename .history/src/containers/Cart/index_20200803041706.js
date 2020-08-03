@@ -31,7 +31,7 @@ class Cart extends Component {
     return (
       <div className='Cart row'>
         <div className='cart-products col s12 m8'>
-          <h4 className='center'>Your Cart</h4>
+          <h3 className='center'>Your Cart</h3>
           <Link to='/'>
             <button className='button back-button' type='button'>
               Back to All Products
