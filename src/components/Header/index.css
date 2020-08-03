@@ -1,0 +1,16 @@
+.header {
+  background-image: url('https://media3.giphy.com/media/l0MYKAE0BbuPKEPNm/giphy.gif');
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-clip: inherit;
+}
+
+.h1-header {
+  color: #fff;
+  display: flex;
+  font-size: 3em;
+}

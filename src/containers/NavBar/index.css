@@ -1,0 +1,19 @@
+.nav-wrapper img {
+  height: 100px;
+  width: auto;
+}
+nav .nav-wrapper {
+  position: relative;
+  height: 100%;
+  background-color: #ef0053c7;
+}
+.cart-items {
+  font-size: 12px;
+  background-color: #001d80;
+  border-radius: 100%;
+  padding: 0 7px;
+  margin-right: 20px;
+}
+.black {
+  background-color: #ef0053c7;
+}

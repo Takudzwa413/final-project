@@ -1,0 +1,26 @@
+.app__signup {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+.img {
+  width: 100%;
+}
+.left_area h3 {
+  color: black;
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 900;
+}
+
+.left_area span {
+  color: #1dc4e7;
+}
+.login {
+  background-image: url(https://cdn.pixabay.com/photo/2015/09/06/00/46/yellow-926728_1280.jpg);
+}
+.app__loginContainer {
+  float: right;
+  margin: 20px;
+}

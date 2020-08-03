@@ -1,0 +1,15 @@
+.header {
+  background-image: url('https://images.unsplash.com/photo-1554034483-04fda0d3507b?ixlib=rb-1.2.1&w=1000&q=80');
+  background-size: cover;
+  width: 100vw;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.h1-header {
+  color: #fff;
+  display: flex;
+  font-size: 3em;
+}
