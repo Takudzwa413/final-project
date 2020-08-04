@@ -22,9 +22,10 @@ class login extends React.Component {
       .signInWithEmailAndPassword(this.state.email, this.state.password)
       .then((u) => {
         console.log(u);
-        console.log(e);
       })
-      .catch((err) => alert(e.message));
+      .catch((err) => {
+        console.log(err);
+      });
   }
   signup(e) {
     e.preventDefault();
@@ -35,7 +36,9 @@ class login extends React.Component {
       .then((u) => {
         console.log(u);
       })
-      .catch((err) => alert(e.message));
+      .catch((err) => {
+        console.log(err);
+      });
   }
 
   handleChange(e) {
